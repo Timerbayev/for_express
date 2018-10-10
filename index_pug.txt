@@ -1,0 +1,21 @@
+html
+    head
+        meta(charset="utf-8")
+        title
+    body
+        form(action="submitform.html", method="GET")
+            div
+                label(for = "name")
+                br
+                input(name = "text")
+                br
+            div
+                label(for = "password")
+                br
+                input(name = "password")
+                br
+                button(type='submit')
+        var  counter = 0;
+        while counter <2
+            counter++
+            p Hello
